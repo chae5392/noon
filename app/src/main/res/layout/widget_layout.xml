@@ -11,6 +11,7 @@
             android:layout_height="match_parent"
             android:src="@drawable/plus"
             android:id="@+id/widget_image"
+            android:scaleType="fitCenter"
             />
     </LinearLayout>
     <LinearLayout

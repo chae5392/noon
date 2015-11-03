@@ -24,4 +24,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile files('libs/libDaumMapAndroid.jar')
     compile files('libs/mapSoFile.jar')
+    compile files('libs/universal-image-loader-1.9.4.jar')
 }

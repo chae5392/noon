@@ -70,7 +70,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             SI.Init();
             rA.registerInit();
         }
-        rA.testAM("ACTION.GET.ONE",10,41);
+        rA.testAM("ACTION.GET.ONE",15,26);
 
         //바인딩
         actionbar = getActionBar();
