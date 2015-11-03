@@ -26,6 +26,9 @@ public class NoonDatabase extends SQLiteOpenHelper {
         String CREATE_SQL3 = "create table if not exists food_favorite ( "
                             + "_id integer primary key autoincrement, "
                             + "local_name TEXT, food TEXT, wea TEXT, time TEXT, weight TEXT, date TEXT);";
+        String CREATE_SQL4 = "create table if not exists check ( "
+                + "_id integer primary key autoincrement, "
+                + "checke TEXT);";
 
         try {
             db.execSQL(CREATE_SQL1);

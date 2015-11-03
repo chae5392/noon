@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 public class DBHandler {
     private NoonDatabase helper;
@@ -25,7 +26,7 @@ public class DBHandler {
         helper.close();
     }
 
-    public long insert(String car_name) {
+    public long insert2(String car_name) {
         ContentValues values = new ContentValues();
         values.put("car_name", car_name);
 
@@ -51,5 +52,13 @@ public class DBHandler {
         if (cursor != null) { cursor.moveToFirst(); }
 
         return cursor;
+    }
+
+    public long insert(String str) {
+        ContentValues values = new ContentValues();
+        values.put("_id", 0);
+        values.put("checke", str);
+        Log.i("widget","click->DBinsert:"+str);
+        return db.insert("check",null,values);
     }
 }

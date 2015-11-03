@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="D:\noon\workspace\noonchi\NewNoonChi\app\libs\libDaumMapAndroid.jar"
+        jar="D:\Program\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="91c9de067eff6b3e026d21934e91ec45db8cd277">
-        <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\libDaumMapAndroid-f514ebfbef49c5e19e6612cef408ebd06d4e5981.jar" />
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-7fb097cad9136f32bacc025f0beaf6fd1744ed4a.jar" />
     </item>
     <item
-        jar="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jar="D:\noon\workspace\noco\noon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\classes-53d937bdfd34045cc3eadd2a856bcb39e48148f2.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\noon\workspace\noco\noon\app\build\intermediates\pre-dexed\debug\classes-b926f5a88fd9ea43868dc001aedb171564f61740.jar" />
     </item>
     <item
         jar="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
@@ -23,18 +23,46 @@
         <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\classes-3ff5783ae31c1a6f7e34512f55f7a02e8f0b87d8.jar" />
     </item>
     <item
+        jar="D:\noon\workspace\noco\noon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\noon\workspace\noco\noon\app\build\intermediates\pre-dexed\debug\classes-bf4278ed3cca2d196cb413b1156437b32c8b828b.jar" />
+    </item>
+    <item
+        jar="D:\noon\workspace\noco\noon\app\libs\libDaumMapAndroid.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="91c9de067eff6b3e026d21934e91ec45db8cd277">
+        <dex dex="D:\noon\workspace\noco\noon\app\build\intermediates\pre-dexed\debug\libDaumMapAndroid-885d62f878c10f6fb70160b91550a9950cd2a701.jar" />
+    </item>
+    <item
+        jar="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\classes-53d937bdfd34045cc3eadd2a856bcb39e48148f2.jar" />
+    </item>
+    <item
+        jar="D:\noon\workspace\noco\noon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\noon\workspace\noco\noon\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-dc1fc3832b144322c1703120f6a062f84f9072e7.jar" />
+    </item>
+    <item
+        jar="D:\noon\workspace\noonchi\NewNoonChi\app\libs\libDaumMapAndroid.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="91c9de067eff6b3e026d21934e91ec45db8cd277">
+        <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\libDaumMapAndroid-f514ebfbef49c5e19e6612cef408ebd06d4e5981.jar" />
+    </item>
+    <item
         jar="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
         <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-ce6b8281dcb6879873f4860acd43b4c1a38d9cee.jar" />
-    </item>
-    <item
-        jar="D:\Program\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="D:\noon\workspace\noonchi\NewNoonChi\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-7fb097cad9136f32bacc025f0beaf6fd1744ed4a.jar" />
     </item>
 
 </items>
