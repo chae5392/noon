@@ -30,7 +30,7 @@ public class GetFood extends BroadcastReceiver {
                 longitude = location.getLongitude();
 
                 Searcher searcher1 = new Searcher();
-                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
 
@@ -43,7 +43,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher2 = new Searcher();
-                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(1, itemList.get(0));
@@ -54,7 +54,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher3 = new Searcher();
-                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(2, itemList.get(0));
@@ -65,7 +65,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher4 = new Searcher();
-                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(3, itemList.get((int) (Math.random() * 15)));
@@ -94,7 +94,7 @@ public class GetFood extends BroadcastReceiver {
                 longitude = location.getLongitude();
 
                 Searcher searcher1 = new Searcher();
-                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
 
@@ -107,7 +107,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher2 = new Searcher();
-                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(1,itemList.get(0));
@@ -118,7 +118,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher3 = new Searcher();
-                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(2, itemList.get(0));
@@ -129,7 +129,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher4 = new Searcher();
-                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(3,itemList.get((int) (Math.random() * 15)));
@@ -158,7 +158,7 @@ public class GetFood extends BroadcastReceiver {
                 longitude = location.getLongitude();
 
                 Searcher searcher1 = new Searcher();
-                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
 
@@ -171,7 +171,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher2 = new Searcher();
-                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(1,itemList.get(0));
@@ -182,7 +182,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher3 = new Searcher();
-                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(2, itemList.get(0));
@@ -193,7 +193,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher4 = new Searcher();
-                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(3,itemList.get((int) (Math.random() * 15)));
@@ -222,7 +222,7 @@ public class GetFood extends BroadcastReceiver {
                 longitude = location.getLongitude();
 
                 Searcher searcher1 = new Searcher();
-                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
 
@@ -235,7 +235,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher2 = new Searcher();
-                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(1,itemList.get(0));
@@ -246,7 +246,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher3 = new Searcher();
-                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(2,itemList.get(0));
@@ -257,7 +257,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher4 = new Searcher();
-                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(3,itemList.get((int) (Math.random() * 15)));
@@ -286,7 +286,7 @@ public class GetFood extends BroadcastReceiver {
                 longitude = location.getLongitude();
 
                 Searcher searcher1 = new Searcher();
-                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
 
@@ -299,7 +299,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher2 = new Searcher();
-                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(1,itemList.get(0));
@@ -310,7 +310,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher3 = new Searcher();
-                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(2,itemList.get(0));
@@ -321,7 +321,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher4 = new Searcher();
-                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(3,itemList.get((int) (Math.random() * 15)));
@@ -350,7 +350,7 @@ public class GetFood extends BroadcastReceiver {
                 longitude = location.getLongitude();
 
                 Searcher searcher1 = new Searcher();
-                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
 
@@ -363,7 +363,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher2 = new Searcher();
-                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(1,itemList.get(0));
@@ -374,7 +374,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher3 = new Searcher();
-                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(2,itemList.get(0));
@@ -385,7 +385,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher4 = new Searcher();
-                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(3,itemList.get((int) (Math.random() * 15)));
@@ -414,7 +414,7 @@ public class GetFood extends BroadcastReceiver {
                 longitude = location.getLongitude();
 
                 Searcher searcher1 = new Searcher();
-                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher1.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
 
@@ -427,7 +427,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher2 = new Searcher();
-                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher2.searchKeyword(context, "편의점", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(1,itemList.get(0));
@@ -438,7 +438,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher3 = new Searcher();
-                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher3.searchCategory(context, "FD6", latitude, longitude, radius, page, 2, "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(2,itemList.get(0));
@@ -449,7 +449,7 @@ public class GetFood extends BroadcastReceiver {
                     }
                 });
                 Searcher searcher4 = new Searcher();
-                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "5c27579fc750d1e54ced797676373643", new OnFinishSearchListener() {
+                searcher4.searchCategory(context, "FD6", latitude, longitude, radius, 1, (int) (Math.random() * 3), "63795804fcf1477cdd7226501d8ba39b", new OnFinishSearchListener() {
                     @Override
                     public void onSuccess(List<Item> itemList) {
                         MainActivity.ThemaItem.add(3,itemList.get((int) (Math.random() * 15)));

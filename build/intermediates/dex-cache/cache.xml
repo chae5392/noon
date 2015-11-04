@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\noon\noon\app\libs\universal-image-loader-1.9.4.jar"
+        jar="D:\noon\workspace\noco\noon\app\libs\universal-image-loader-1.9.4.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
-        <dex dex="C:\noon\noon\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-12498056e87eef2fa54c121d7525438354263937.jar" />
+        <dex dex="D:\noon\workspace\noco\noon\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-5f67d7b831a4c84134feff643c677c7661c612f0.jar" />
     </item>
 
 </items>

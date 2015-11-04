@@ -70,7 +70,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             SI.Init();
             rA.registerInit();
         }
-        rA.testAM("ACTION.GET.ONE",15,26);
+        rA.testAM("ACTION.GET.ONE",14,0);
 
         //바인딩
         actionbar = getActionBar();
@@ -83,7 +83,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
         // MapView
         mapView = new MapView(this);
-        mapView.setDaumMapApiKey("5c27579fc750d1e54ced797676373643");
+        mapView.setDaumMapApiKey("63795804fcf1477cdd7226501d8ba39b");
         ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
         mapViewContainer.addView(mapView);
 
